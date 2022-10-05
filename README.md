@@ -14,3 +14,22 @@ script ini hasil recode dari rimurubotz untuk mendapatkan script original ini bi
   <a href="-">
     <img align="left" alt="SIEGRIN | YouTube" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Youtube.svg" />
   </a> &nbsp;&nbsp;
+------------
+#install from termux
+$pkg update && pkg upgrade
+$pkg install git
+$pkg install nodejs
+$pkg install imagemagick
+$pkg install libwebp
+$pkg install python
+$pkg install yarn
+$git clone https://github.com/RAFF4YOU/raffa-mdv5
+$cd raffa-ndv5
+$yarn
+$npm start
+------------
+#install from pm2
+$npm i -g pm2
+$pm2 start index.js
+$pm2 save
+$pm2 monit
