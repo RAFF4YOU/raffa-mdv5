@@ -17,8 +17,8 @@ script ini hasil recode dari rimurubotz untuk mendapatkan script original ini bi
   </a> &nbsp;&nbsp;
 
 ---------
-
-##```install from termux
+```bash
+##install from termux
 $pkg update && pkg upgrade
 $pkg install git
 $pkg install nodejs
@@ -32,7 +32,7 @@ $yarn
 $npm start
 
 ----------
-
+```bash
 ##```install from pm2
 $npm i -g pm2
 $pm2 start index.js
