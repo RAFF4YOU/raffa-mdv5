@@ -1,9 +1,9 @@
 ## raffa-mdv5
-------------
+---------
 ## NOTE
 script ini hasil recode dari rimurubotz untuk mendapatkan script original ini bisa kalian dapatkan di channel rimurubotz
 
-------------
+---------
 
 ## ```Connect With Me 📞``` <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="32px">
   <a href="https://wa.me/6283823397743">
@@ -16,9 +16,9 @@ script ini hasil recode dari rimurubotz untuk mendapatkan script original ini bi
     <img align="left" alt="SIEGRIN | YouTube" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Youtube.svg" />
   </a> &nbsp;&nbsp;
 
-------------
+---------
 
-''bash
+```bash
 ##install from termux
 $pkg update && pkg upgrade
 $pkg install git
@@ -32,9 +32,9 @@ $cd raffa-ndv5
 $yarn
 $npm start
 
-------------
+----------
 
-''bash
+```bash
 ##install from pm2
 $npm i -g pm2
 $pm2 start index.js
