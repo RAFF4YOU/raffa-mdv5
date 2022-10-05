@@ -33,7 +33,7 @@ $npm start
 
 ----------
 ```bash
-##```install from pm2
+##install from pm2
 $npm i -g pm2
 $pm2 start index.js
 $pm2 save
